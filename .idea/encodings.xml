@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/oovoo/sdk/sample/HeaderLayoutManagerFixed.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/oovoo/sdk/sample/ParallaxRecyclerAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/oovoo/sdk/sample/chating_files/ChatFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/oovoo/sdk/sample/chating_files/Message.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/oovoo/sdk/sample/chating_files/MessageAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/wallpaper.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/header.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/row_recyclerview.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/row_recyclerview_cards.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

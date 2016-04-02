@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer.xml",
+        "source": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\menu\\drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\res\\merged\\debug\\menu\\socket_activity_actions.xml",
+        "source": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\menu\\socket_activity_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_socket.xml",
+        "source": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\menu\\menu_socket.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawermenu.xml",
+        "source": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\menu\\drawermenu.xml"
+    }
+]

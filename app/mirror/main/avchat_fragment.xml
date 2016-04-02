@@ -1,0 +1,43 @@
+<!-- [ Mirror metadata ] generatedAt: 1458479813264 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/avchat_fragment">
+        <video_grid_view>
+            <items layout="@android:layout/simple_list_item_1" >
+                <_item>
+                    <text1>Dalmatian</text1>
+                </_item>
+                <_item>
+                    <text1>Great Dane</text1>
+                </_item>
+                <_item>
+                    <text1>Shi Tzu</text1>
+                </_item>
+                <_item>
+                    <text1>Corgi</text1>
+                </_item>
+                <_item>
+                    <text1>Labrador</text1>
+                </_item>
+                <_item>
+                    <text1>Doberman</text1>
+                </_item>
+                <_item>
+                    <text1>Chihuahua</text1>
+                </_item>
+            </items>
+                </video_grid_view>
+        <!-- ImageView Examples:
+        <full_screen_avatar_image_view src="@drawable/image_resource" />
+        <full_screen_avatar_image_view src="relative_path/image.jpg" /> -->
+        <full_screen_avatar_image_view />
+        <!-- TextView Examples:
+        <full_screen_label text="@string/string_resource" />
+        <full_screen_label text="Text literal" textSize="14sp" /> -->
+        <full_screen_label />
+    </_content>
+</screen>
