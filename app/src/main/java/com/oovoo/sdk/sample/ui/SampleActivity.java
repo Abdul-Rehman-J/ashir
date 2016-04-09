@@ -1,7 +1,7 @@
 package com.oovoo.sdk.sample.ui;
 
 
-import android.app.Activity;
+
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -70,18 +70,18 @@ Toolbar toolbar;
 	private BroadcastReceiver 		mRegistrationBroadcastReceiver = null;
 
 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -112,7 +112,7 @@ Toolbar toolbar;
 			}
 
 			try {
- 
+
 				application.onMainActivityCreated();
 			} catch( Exception e) {
 				Log.e( TAG, "onCreate exception: ", e);
@@ -162,9 +162,9 @@ Toolbar toolbar;
 			Log.e( TAG, "onResume exception: with ", err);
 		}
 
-				
+
 		mIsAlive = true;
- 
+
 
 		if(mNeedShowFragment){
 			showFragment(current_fragment);
@@ -175,7 +175,7 @@ Toolbar toolbar;
 	@Override
 	protected void onPause() {
 		super.onPause();
-				
+
 		mIsAlive = false;
 	}
 

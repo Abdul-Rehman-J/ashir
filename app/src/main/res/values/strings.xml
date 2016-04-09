@@ -8,6 +8,7 @@
     <string name="title_activity_organizerview">organizerview</string>
     <string name="title_activity_signup">signup</string>
     <string name="textview">Confernce</string>
+    <string name="test">Test text string</string>
     <string name="edittext1">User Name</string>
     <string name="edittext2">Password</string>
     <string name="createbutton">Create Account</string>

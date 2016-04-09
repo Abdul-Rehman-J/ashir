@@ -12,14 +12,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageButton;
 
 import com.oovoo.sdk.oovoosdksampleshow.R;
 import com.oovoo.sdk.sample.MainActivity;
+import com.oovoo.sdk.sample.MongoHQ.SaveAsyncTask;
+import com.oovoo.sdk.sample.MyContact;
 
 public class MainActivity_chat extends AppCompatActivity {
 Toolbar toolbar;
     String imgDecodableString;
-
+EditText editText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,12 +36,29 @@ Toolbar toolbar;
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
         });
-    }
 
+
+        editText = (EditText) findViewById(R.id.message_input);
+        Log.i("edittext", editText.toString());
+
+        ImageButton imageButton = (ImageButton) findViewById(R.id.send_button);
+imageButton.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        MyContact contact = new MyContact();
+        contact.first_name = editText.getText().toString();
+
+        SaveAsyncTask tsk = new SaveAsyncTask();
+        tsk.execute(contact);
+
+    }
+});
+
+}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 

@@ -32,7 +32,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
 public class ChatFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
@@ -112,7 +111,7 @@ public class ChatFragment extends Fragment {
         ImageButton sendButton = (ImageButton) view.findViewById(R.id.send_button);
         mInputMessageView = (EditText) view.findViewById(R.id.message_input);
 
-        sendButton.setOnClickListener(new View.OnClickListener() {
+  sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 sendMessage();

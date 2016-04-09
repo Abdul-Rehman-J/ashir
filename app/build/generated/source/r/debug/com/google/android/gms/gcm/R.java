@@ -13,18 +13,18 @@ public final class R {
 		public static final int imageAspectRatioAdjust = 0x7f01005e;
 	}
 	public static final class color {
-		public static final int common_action_bar_splitter = 0x7f0a0035;
-		public static final int common_signin_btn_dark_text_default = 0x7f0a0036;
-		public static final int common_signin_btn_dark_text_disabled = 0x7f0a0037;
-		public static final int common_signin_btn_dark_text_focused = 0x7f0a0038;
-		public static final int common_signin_btn_dark_text_pressed = 0x7f0a0039;
-		public static final int common_signin_btn_default_background = 0x7f0a003a;
-		public static final int common_signin_btn_light_text_default = 0x7f0a003b;
-		public static final int common_signin_btn_light_text_disabled = 0x7f0a003c;
-		public static final int common_signin_btn_light_text_focused = 0x7f0a003d;
-		public static final int common_signin_btn_light_text_pressed = 0x7f0a003e;
-		public static final int common_signin_btn_text_dark = 0x7f0a0090;
-		public static final int common_signin_btn_text_light = 0x7f0a0091;
+		public static final int common_action_bar_splitter = 0x7f0a0039;
+		public static final int common_signin_btn_dark_text_default = 0x7f0a003a;
+		public static final int common_signin_btn_dark_text_disabled = 0x7f0a003b;
+		public static final int common_signin_btn_dark_text_focused = 0x7f0a003c;
+		public static final int common_signin_btn_dark_text_pressed = 0x7f0a003d;
+		public static final int common_signin_btn_default_background = 0x7f0a003e;
+		public static final int common_signin_btn_light_text_default = 0x7f0a003f;
+		public static final int common_signin_btn_light_text_disabled = 0x7f0a0040;
+		public static final int common_signin_btn_light_text_focused = 0x7f0a0041;
+		public static final int common_signin_btn_light_text_pressed = 0x7f0a0042;
+		public static final int common_signin_btn_text_dark = 0x7f0a0095;
+		public static final int common_signin_btn_text_light = 0x7f0a0096;
 	}
 	public static final class drawable {
 		public static final int common_full_open_on_phone = 0x7f02007b;
@@ -63,7 +63,7 @@ public final class R {
 		public static final int adjust_width = 0x7f0b0034;
 		public static final int none = 0x7f0b0011;
 		public static final int normal = 0x7f0b000d;
-		public static final int test = 0x7f0b00cd;
+		public static final int test = 0x7f0b00cf;
 		public static final int wrap_content = 0x7f0b003c;
 	}
 	public static final class integer {

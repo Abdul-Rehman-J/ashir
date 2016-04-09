@@ -3,7 +3,6 @@ package com.oovoo.sdk.sample.ui.fragments;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -76,11 +75,8 @@ public class LoginFragment extends BaseFragment {
 		View view = inflater.inflate(R.layout.login_fragment_layout, container, false);
 
 		Button loginButton = (Button) view.findViewById(R.id.login_button);
-		String name=getActivity().getIntent().getStringExtra("name");
-		Log.d("check",name);
-		usernameEditText = (EditText) view.findViewById(R.id.username_field);
-		usernameEditText.setText(name, TextView.BufferType.EDITABLE);
 
+		usernameEditText = (EditText) view.findViewById(R.id.username_field);
 		String username = settings().get("username");
 		if (username != null) {
 			usernameEditText.setText(username);

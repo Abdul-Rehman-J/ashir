@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "outputFile": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 1031
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 1459
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 1885
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 2312
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 2737
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -158,7 +158,7 @@
                     "endOffset": 2826
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -177,7 +177,7 @@
                     "endOffset": 2927
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -197,7 +197,7 @@
                     "endOffset": 3335
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -218,7 +218,7 @@
                     "endOffset": 3755
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 3862
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -260,7 +260,7 @@
                     "endOffset": 3991
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -281,7 +281,7 @@
                     "endOffset": 4155
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -302,7 +302,7 @@
                     "endOffset": 4593
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -322,7 +322,7 @@
                     "endOffset": 4664
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -341,7 +341,7 @@
                     "endOffset": 4747
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
@@ -361,7 +361,7 @@
                     "endOffset": 8455
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -382,7 +382,7 @@
                     "endOffset": 12303
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 115,
                         "startColumn": 4,
@@ -402,7 +402,7 @@
                     "endOffset": 12394
                 },
                 "from": {
-                    "file": "C:\\Users\\aspire\\Downloads\\Compressed\\conferce-new-ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
+                    "file": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v11\\values-v11.xml",
                     "position": {
                         "startLine": 169,
                         "startColumn": 4,

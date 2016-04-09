@@ -1,4 +1,5 @@
 package com.oovoo.sdk.sample.app;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Application;
@@ -10,6 +11,7 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.provider.Settings.Secure;
 import android.telephony.TelephonyManager;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Display;
 import android.view.Gravity;
@@ -17,6 +19,10 @@ import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.Volley;
 import com.oovoo.core.LoggerListener;
 import com.oovoo.core.Utils.LogSdk;
 import com.oovoo.core.media.ooVooCamera;
@@ -42,6 +48,7 @@ import com.oovoo.sdk.interfaces.ooVooSdkResultListener;
 import com.oovoo.sdk.oovoosdksampleshow.R;
 import com.oovoo.sdk.sample.call.CNMessage;
 import com.oovoo.sdk.sample.call.PNMessage;
+import com.oovoo.sdk.sample.frontend.BitmapCache;
 import com.oovoo.sdk.sample.ui.CustomVideoPanel;
 import com.parse.Parse;
 import com.parse.ParseACL;
@@ -110,7 +117,9 @@ public class ooVooSdkSampleShowApp extends Application implements VideoControlle
 	private String uniqueId = UUID.randomUUID().toString();
 	private boolean isCallNegotiation = false;
 	private boolean isInConference = false;
-
+	private RequestQueue mRequestQueue;
+	private ImageLoader mImageLoader;
+	private static ooVooSdkSampleShowApp mInstance;
 
 	private Map<String, Boolean> muted = new HashMap<String, Boolean>();
 
@@ -126,12 +135,13 @@ public class ooVooSdkSampleShowApp extends Application implements VideoControlle
 		defaultACL.setPublicReadAccess(true);
 
 		ParseACL.setDefaultACL(defaultACL, true);
+		mInstance=this;
 
 		try {
 
 			Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
 				public void uncaughtException(Thread t, Throwable e) {
-					LogSdk.e(TAG, "UncaughtExceptionHandler threade = " + t + ", error " + e);
+					LogSdk.e(TAG, "UncaughtExceptionHandler threade is here on line 144= " + t + ", error " + e);
 					e.printStackTrace();
 				}
 			});
@@ -159,7 +169,7 @@ public class ooVooSdkSampleShowApp extends Application implements VideoControlle
 //			{
 //				LogSdk.d( TAG, "yap support up to vga");
 //			}
-//			else 
+//			else
 //			{
 //				long cif_average_read = verify.getPerfValue("cif");
 //				LogSdk.d( TAG, "perf test result vga: " + cif_average_read );
@@ -184,13 +194,43 @@ public class ooVooSdkSampleShowApp extends Application implements VideoControlle
 //			sdk.getAVChat().registerPlugin(new AffdexPluginFactory(affdexSettings, this));
 
 			AudioRouteController audioController = sdk.getAVChat().getAudioController().getAudioRouteController();
-			LogSdk.d(TAG, "Audio controller " + audioController);
+			LogSdk.d(TAG, "Audio controller" + audioController);
 
-		} catch (Exception e) {
+		}
+		catch (Exception e) {
 			e.printStackTrace();
 			sdk = null;
 		}
 		operation_handler = new Handler();
+	}
+	public static synchronized ooVooSdkSampleShowApp getmInstance(){
+		return mInstance;
+	}
+	public RequestQueue getmRequestQueue() {
+		if(mRequestQueue==null){
+			mRequestQueue= Volley.newRequestQueue(getApplicationContext());
+		}
+		return mRequestQueue;
+	}
+	public ImageLoader getmImageLoader(){
+		getmRequestQueue();
+		if(mImageLoader==null){
+			mImageLoader=new ImageLoader(this.mRequestQueue,new BitmapCache());
+		}
+		return this.mImageLoader;
+	}
+	public <T> void addToRequesQueue(Request<T> request,String tag){
+		request.setTag((TextUtils.isEmpty(tag) ? TAG : tag));
+		getmRequestQueue().add(request);
+	}
+	public <T> void addToRequesQueue(Request<T> request){
+		request.setTag(TAG);
+		getmRequestQueue().add(request);
+	}
+	public void cancelPendingRequest(Object tag){
+		if(mRequestQueue !=null){
+			mRequestQueue.cancelAll(tag);
+		}
 	}
 
 	public Context getContext() {

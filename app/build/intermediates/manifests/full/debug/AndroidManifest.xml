@@ -73,7 +73,18 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme" />
         <activity
+            android:name="com.oovoo.sdk.sample.help"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name="com.oovoo.sdk.sample.MainActivity"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.oovoo.sdk.sample.chating_files.MainActivity_chat"
             android:exported="true"
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name" />
@@ -84,10 +95,6 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name="com.oovoo.sdk.sample.ui.SampleActivity"
-            android:icon="@drawable/ic_launcher"
-            android:label="@string/app_name" />
-        <activity
-            android:name="com.oovoo.sdk.sample.chating_files.MainActivity_chat"
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name" />
 

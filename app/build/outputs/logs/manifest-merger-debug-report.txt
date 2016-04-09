@@ -1,316 +1,330 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:2:1-128:12
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:2:1-136:12
 	xmlns:android
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:2:11-69
 	package
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:5:5-34
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:5:5-34
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:4:5-31
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.1.1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.android:facebook-android-sdk:4.10.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
-MERGED from [it.sephiroth.android.library.picasso:picasso:2.5.2.4b] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\it.sephiroth.android.library.picasso\picasso\2.5.2.4b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.10.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [it.sephiroth.android.library.picasso:picasso:2.5.2.4b] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\it.sephiroth.android.library.picasso\picasso\2.5.2.4b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:11:5-72
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:11:5-72
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:11:22-69
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:11:22-69
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:12:5-73
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:12:5-73
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:12:22-70
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:12:22-70
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:14:5-76
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:14:22-73
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:14:22-73
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:15:5-67
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:15:22-64
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:16:5-80
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:16:22-77
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:17:5-71
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:17:5-71
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:17:22-68
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:17:22-68
 uses-permission#android.permission.RECORD_VIDEO
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:18:5-71
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:18:5-71
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:18:22-68
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:18:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:19:5-80
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:19:5-80
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:19:22-77
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:19:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:20:5-81
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:20:22-78
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:20:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:21:5-65
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:21:22-62
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:21:22-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:22:5-79
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:22:22-76
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:22:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:23:5-75
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:23:5-75
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:23:22-72
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:23:22-72
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:24:5-81
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:24:5-81
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:24:22-78
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:24:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:25:5-68
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:25:22-65
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:25:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:26:5-74
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:26:5-74
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:26:22-71
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:26:22-71
 uses-permission#android.permission.BLUETOOTH_PRIVILEGED
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:27:5-79
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:27:22-76
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:27:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:28:5-68
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:28:5-68
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:28:22-65
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:28:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:29:5-82
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:29:5-82
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:29:22-79
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:29:22-79
 permission#com.oovoo.sdk.oovoosdksampleshow.gcm.permission.C2D_MESSAGE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:31:5-33:47
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:31:5-33:47
 	android:protectionLevel
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:33:9-44
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:33:9-44
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:32:9-83
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:32:9-83
 uses-permission#com.oovoo.sdk.oovoosdksampleshow.gcm.permission.C2D_MESSAGE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:35:5-99
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:35:5-99
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:35:22-96
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:35:22-96
 uses-feature#android.hardware.camera
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:37:5-60
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:37:5-60
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:37:19-57
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:37:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:38:5-70
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:38:5-70
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:38:19-67
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:38:19-67
 uses-feature#0x00020000
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:41:5-43:35
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:41:5-43:35
 	android:required
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:43:9-32
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:43:9-32
 	android:glEsVersion
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:42:9-41
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:42:9-41
 application
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:45:5-126:19
-MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.1.1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.10.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\AndroidManifest.xml:28:5-20
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
-MERGED from [it.sephiroth.android.library.picasso:picasso:2.5.2.4b] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\it.sephiroth.android.library.picasso\picasso\2.5.2.4b\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:45:5-134:19
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.10.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [it.sephiroth.android.library.picasso:picasso:2.5.2.4b] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\it.sephiroth.android.library.picasso\picasso\2.5.2.4b\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:cardview-v7:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:50:9-41
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:50:9-41
 	android:debuggable
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:48:9-34
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:48:9-34
 	android:allowBackup
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:47:9-35
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:47:9-35
 	android:icon
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:49:9-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:49:9-45
 	android:theme
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:51:9-40
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:51:9-40
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:46:9-70
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:46:9-70
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:52:9-54:46
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:52:9-54:46
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:53:13-58
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:53:13-58
 	android:value
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:54:13-43
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:54:13-43
 activity#com.facebook.FacebookActivity
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:56:9-59:48
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:56:9-59:48
 	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:59:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:59:13-45
 	android:configChanges
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:58:13-96
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:58:13-96
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:57:13-57
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:57:13-57
 activity#com.oovoo.sdk.sample.a
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:60:9-68:20
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:60:9-68:20
 	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:62:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:62:13-45
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:61:13-50
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:61:13-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:63:13-67:29
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:63:13-67:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:64:17-69
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:64:17-69
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:64:25-66
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:64:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:66:17-77
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:66:17-77
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:66:27-74
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:66:27-74
 activity#com.oovoo.sdk.sample.login
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:69:9-74:56
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:69:9-74:56
 	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:73:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:73:13-45
 	android:icon
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:72:13-49
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:72:13-49
 	android:theme
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:74:13-44
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:74:13-44
 	android:exported
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:71:13-36
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:71:13-36
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:70:13-54
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:70:13-54
+activity#com.oovoo.sdk.sample.help
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:75:9-80:56
+	android:label
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:79:13-45
+	android:icon
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:78:13-49
+	android:theme
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:80:13-44
+	android:exported
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:77:13-36
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:76:13-53
 activity#com.oovoo.sdk.sample.MainActivity
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:75:9-79:57
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:81:15-85:57
 	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:79:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:85:13-45
 	android:icon
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:84:13-49
 	android:exported
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:77:13-36
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:83:13-36
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:76:13-61
-activity#com.oovoo.sdk.sample.signup
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:80:9-84:56
-	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:83:13-58
-	android:icon
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:82:13-49
-	android:theme
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:84:13-44
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:81:13-55
-activity#com.oovoo.sdk.sample.ui.SampleActivity
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:85:9-88:57
-	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:88:13-45
-	android:icon
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:87:13-49
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:86:13-66
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:82:13-61
 activity#com.oovoo.sdk.sample.chating_files.MainActivity_chat
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:89:9-92:57
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:86:9-90:57
 	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:92:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:90:13-45
 	android:icon
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:91:13-49
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:90:13-80
-receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:93:9-102:20
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:89:13-49
 	android:exported
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:95:13-36
-	android:permission
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:96:13-73
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:88:13-36
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:94:13-66
-intent-filter#com.example.gcm+com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:97:13-101:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:98:17-81
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:98:25-78
-category#com.example.gcm
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:100:17-60
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:100:27-57
-service#com.oovoo.sdk.sample.services.MyGcmListenerService
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:104:9-110:19
-	android:exported
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:106:13-37
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:105:13-78
-intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:107:13-109:29
-service#com.oovoo.sdk.sample.services.MyInstanceIDListenerService
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:111:9-117:19
-	android:exported
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:113:13-37
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:112:13-85
-intent-filter#com.google.android.gms.iid.InstanceID
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:114:13-116:29
-action#com.google.android.gms.iid.InstanceID
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:115:17-80
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:115:25-77
-service#com.oovoo.sdk.sample.services.RegistrationIntentService
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:118:9-120:48
-	android:exported
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:120:13-37
-	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:119:13-83
-activity#com.oovoo.sdk.sample.info
-ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:122:9-125:56
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:87:13-80
+activity#com.oovoo.sdk.sample.signup
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:91:9-95:56
 	android:label
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:124:13-56
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:94:13-58
+	android:icon
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:93:13-49
 	android:theme
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:125:13-44
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:95:13-44
 	android:name
-		ADDED from C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\src\main\AndroidManifest.xml:123:13-53
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:92:13-55
+activity#com.oovoo.sdk.sample.ui.SampleActivity
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:96:9-99:57
+	android:label
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:99:13-45
+	android:icon
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:98:13-49
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:97:13-66
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:101:9-110:20
+	android:exported
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:103:13-36
+	android:permission
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:104:13-73
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:102:13-66
+intent-filter#com.example.gcm+com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:105:13-109:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:106:17-81
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:106:25-78
+category#com.example.gcm
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:108:17-60
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:108:27-57
+service#com.oovoo.sdk.sample.services.MyGcmListenerService
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:112:9-118:19
+	android:exported
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:114:13-37
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:113:13-78
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:115:13-117:29
+service#com.oovoo.sdk.sample.services.MyInstanceIDListenerService
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:119:9-125:19
+	android:exported
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:120:13-85
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:122:13-124:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:123:17-80
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:123:25-77
+service#com.oovoo.sdk.sample.services.RegistrationIntentService
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:126:9-128:48
+	android:exported
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:128:13-37
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:127:13-83
+activity#com.oovoo.sdk.sample.info
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:130:9-133:56
+	android:label
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:132:13-56
+	android:theme
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:133:13-44
+	android:name
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:131:13-53
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:22:13-58
 	android:value
-		ADDED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:23:13-66

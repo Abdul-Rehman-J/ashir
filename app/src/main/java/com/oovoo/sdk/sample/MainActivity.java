@@ -1,28 +1,33 @@
 package com.oovoo.sdk.sample;
 
-import android.content.Context;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
 import com.oovoo.sdk.oovoosdksampleshow.R;
-import com.oovoo.sdk.sample.Mainactivty_recyclerview.DividerItemDecoration;
-import com.oovoo.sdk.sample.Mainactivty_recyclerview.Movie;
-import com.oovoo.sdk.sample.Mainactivty_recyclerview.MoviesAdapter;
+import com.oovoo.sdk.sample.app.ooVooSdkSampleShowApp;
+import com.oovoo.sdk.sample.frontend.Adapter;
+import com.oovoo.sdk.sample.frontend.Item;
 import com.oovoo.sdk.sample.ui.SampleActivity;
 import com.parse.ParseUser;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,9 +36,11 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout mDrawerLayout;
     NavigationView mNavigationView;
     Toolbar toolbar;
-    private List<Movie> movieList = new ArrayList<>();
-    private RecyclerView recyclerView;
-    private MoviesAdapter mAdapter;
+    private static final String url = "http://api.androidhive.info/json/movies.json";
+    private ProgressDialog dialog;
+    private List<Item> array = new ArrayList<Item>();
+    private ListView listView;
+    private Adapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,36 +51,65 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_launcher);
 
-
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
-        mAdapter = new MoviesAdapter(movieList);
-
-        recyclerView.setHasFixedSize(true);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(mAdapter);
-
-        recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), recyclerView, new ClickListener() {
+        listView = (ListView) findViewById(R.id.list_item1);
+        adapter=new Adapter(this,array);
+        listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onClick(View view, int position) {
-                Movie movie = movieList.get(position);
-                String info = movie.getTitle();
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Item item=array.get(position);
+                Toast.makeText(getApplicationContext(),""+position,Toast.LENGTH_LONG).show();
+               String info = item.getTitle();
                 Intent intent  = new Intent(MainActivity.this,info.class);
                 intent.putExtra("name", info);
-                intent.putExtra("genre", movie.getGenre());
+                intent.putExtra("genre", item.getYear());
                 startActivity(intent);
             }
+        });
+        dialog=new ProgressDialog(this);
+        dialog.setMessage("Loading...");
+        dialog.show();
 
+        //Creat volley request obj
+        JsonArrayRequest jsonArrayRequest=new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
             @Override
-            public void onLongClick(View view, int position) {
+            public void onResponse(JSONArray response) {
+                hideDialog();
+                //parsing json
+                for(int i=0;i<response.length();i++){
+                    try{
+                        JSONObject obj=response.getJSONObject(i);
+                        Item item=new Item();
+                        item.setTitle(obj.getString("title"));
+                        item.setImage(obj.getString("image"));
+                        item.setRate(((Number) obj.get("rating")).doubleValue());
+                        item.setYear(obj.getString("releaseYear"));
+
+                        //genre is json array
+                        JSONArray genreArray=obj.getJSONArray("genre");
+                        ArrayList<String> genre=new ArrayList<String>();
+                        for(int j=0;j<genreArray.length();j++){
+                            genre.add((String) genreArray.get(j));
+                        }
+                        item.setGenre(genre);
+
+                        //add to array
+                        array.add(item);
+                    }catch(JSONException ex){
+                        ex.printStackTrace();
+                    }
+                }
+                adapter.notifyDataSetChanged();
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
 
             }
-        }));
+        });
+        ooVooSdkSampleShowApp.getmInstance().addToRequesQueue(jsonArrayRequest);
 
-        prepareMovieData();
                /**
          *Setup the DrawerLayout and NavigationView
          */
@@ -123,13 +159,15 @@ public class MainActivity extends AppCompatActivity {
 
             return false;
         }
-
-        }
-
+                                                          }
         );
-
     }
-
+    public void hideDialog(){
+        if(dialog !=null){
+            dialog.dismiss();
+            dialog=null;
+        }
+    }
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main_menu, menu);
@@ -159,105 +197,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void prepareMovieData() {
-        Movie movie = new Movie("Mad Max: Fury Road", "Action & Adventure", "2015");
-        movieList.add(movie);
 
-        movie = new Movie("Inside Out", "Animation, Kids & Family", "2015");
-        movieList.add(movie);
-
-        movie = new Movie("Star Wars: Episode VII - The Force Awakens", "Action", "2015");
-        movieList.add(movie);
-
-        movie = new Movie("Shaun the Sheep", "Animation", "2015");
-        movieList.add(movie);
-
-        movie = new Movie("The Martian", "Science Fiction & Fantasy", "2015");
-        movieList.add(movie);
-
-        movie = new Movie("Mission: Impossible Rogue Nation", "Action", "2015");
-        movieList.add(movie);
-
-        movie = new Movie("Up", "Animation", "2009");
-        movieList.add(movie);
-
-        movie = new Movie("Star Trek", "Science Fiction", "2009");
-        movieList.add(movie);
-
-        movie = new Movie("The LEGO Movie", "Animation", "2014");
-        movieList.add(movie);
-
-        movie = new Movie("Iron Man", "Action & Adventure", "2008");
-        movieList.add(movie);
-
-        movie = new Movie("Aliens", "Science Fiction", "1986");
-        movieList.add(movie);
-
-        movie = new Movie("Chicken Run", "Animation", "2000");
-        movieList.add(movie);
-
-        movie = new Movie("Back to the Future", "Science Fiction", "1985");
-        movieList.add(movie);
-
-        movie = new Movie("Raiders of the Lost Ark", "Action & Adventure", "1981");
-        movieList.add(movie);
-
-        movie = new Movie("Goldfinger", "Action & Adventure", "1965");
-        movieList.add(movie);
-
-        movie = new Movie("Guardians of the Galaxy", "Science Fiction & Fantasy", "2014");
-        movieList.add(movie);
-
-        mAdapter.notifyDataSetChanged();
-    }
-
-    public interface ClickListener {
-        void onClick(View view, int position);
-
-        void onLongClick(View view, int position);
-    }
-
-    public static class RecyclerTouchListener implements RecyclerView.OnItemTouchListener {
-
-        private GestureDetector gestureDetector;
-        private MainActivity.ClickListener clickListener;
-
-        public RecyclerTouchListener(Context context, final RecyclerView recyclerView, final MainActivity.ClickListener clickListener) {
-            this.clickListener = clickListener;
-            gestureDetector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
-                @Override
-                public boolean onSingleTapUp(MotionEvent e) {
-                    return true;
-                }
-
-                @Override
-                public void onLongPress(MotionEvent e) {
-                    View child = recyclerView.findChildViewUnder(e.getX(), e.getY());
-                    if (child != null && clickListener != null) {
-                        clickListener.onLongClick(child, recyclerView.getChildPosition(child));
-                    }
-                }
-            });
-        }
-
-        @Override
-        public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
-
-            View child = rv.findChildViewUnder(e.getX(), e.getY());
-            if (child != null && clickListener != null && gestureDetector.onTouchEvent(e)) {
-                clickListener.onClick(child, rv.getChildPosition(child));
-            }
-            return false;
-        }
-
-        @Override
-        public void onTouchEvent(RecyclerView rv, MotionEvent e) {
-        }
-
-        @Override
-        public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
-
-        }
-    }
 
 }

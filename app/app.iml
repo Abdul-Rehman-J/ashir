@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="conferce-new-ashir" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="ashir" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
@@ -88,16 +88,16 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../OoVooSdkSampleShow/res">
-      <sourceFolder url="file://$MODULE_DIR$/../../../OoVooSdkSampleShow/res" type="java-resource" />
+    <content url="file://$USER_HOME$/OoVooSdkSampleShow/res">
+      <sourceFolder url="file://$USER_HOME$/OoVooSdkSampleShow/res" type="java-resource" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../OoVooSdkSampleShow/src">
-      <sourceFolder url="file://$MODULE_DIR$/../../../OoVooSdkSampleShow/src" isTestSource="false" />
+    <content url="file://$USER_HOME$/OoVooSdkSampleShow/src">
+      <sourceFolder url="file://$USER_HOME$/OoVooSdkSampleShow/src" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="annotations-12.0" level="project" />
     <orderEntry type="library" exported="" name="okio-1.3.0" level="project" />
+    <orderEntry type="library" exported="" name="annotations-12.0" level="project" />
     <orderEntry type="library" exported="" name="design-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-7.5.0" level="project" />
     <orderEntry type="library" exported="" name="engine.io-client-0.5.0" level="project" />
@@ -114,10 +114,12 @@
     <orderEntry type="library" exported="" name="appcompat-v7-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="okhttp-urlconnection-2.1.0" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-24.0.0-alpha1" level="project" />
+    <orderEntry type="library" exported="" name="library-1.0.19" level="project" />
     <orderEntry type="library" exported="" name="HockeySDK-3.5.0" level="project" />
     <orderEntry type="library" exported="" name="picasso-2.5.2.4b" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-24.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="facebook-android-sdk-4.10.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-24.0.0-alpha1" level="project" />
+    <orderEntry type="library" exported="" name="org.apache.http.legacy-android-23" level="project" />
   </component>
 </module>
