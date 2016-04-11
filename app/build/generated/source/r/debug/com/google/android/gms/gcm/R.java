@@ -63,7 +63,7 @@ public final class R {
 		public static final int adjust_width = 0x7f0b0034;
 		public static final int none = 0x7f0b0011;
 		public static final int normal = 0x7f0b000d;
-		public static final int test = 0x7f0b00cf;
+		public static final int test = 0x7f0b00d1;
 		public static final int wrap_content = 0x7f0b003c;
 	}
 	public static final class integer {

@@ -3,6 +3,7 @@ package com.oovoo.sdk.sample;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -11,15 +12,17 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.oovoo.sdk.oovoosdksampleshow.R;
 import com.oovoo.sdk.sample.app.ooVooSdkSampleShowApp;
+import com.oovoo.sdk.sample.chating_files.MainActivity_chat;
 import com.oovoo.sdk.sample.frontend.Adapter;
 import com.oovoo.sdk.sample.frontend.Item;
 import com.oovoo.sdk.sample.ui.SampleActivity;
@@ -41,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
     private List<Item> array = new ArrayList<Item>();
     private ListView listView;
     private Adapter adapter;
+    private Boolean isFabOpen = false;
+    private FloatingActionButton fab,fab1,fab2;
+    private Animation fab_open,fab_close,rotate_forward,rotate_backward;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,53 +56,73 @@ public class MainActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar1); // Attaching the layout to the toolbar object
         setSupportActionBar(toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_launcher);
+//fab buttons
 
+        fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab1 = (FloatingActionButton) findViewById(R.id.fab1);
+        fab2 = (FloatingActionButton) findViewById(R.id.fab2);
+        fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open);
+        fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
+        rotate_forward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_forward);
+        rotate_backward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_backward);
+
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SampleActivity.class);
+                startActivity(intent);
+            }
+        });
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                animateFAB();
+            }
+        });
+        fab1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MainActivity_chat.class);
+                startActivity(intent);
+            }
+        });
+        //end
         listView = (ListView) findViewById(R.id.list_item1);
-        adapter=new Adapter(this,array);
+        adapter = new Adapter(this, array);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Item item=array.get(position);
-                Toast.makeText(getApplicationContext(),""+position,Toast.LENGTH_LONG).show();
-               String info = item.getTitle();
-                Intent intent  = new Intent(MainActivity.this,info.class);
+                Item item = array.get(position);
+                Toast.makeText(getApplicationContext(), "" + position, Toast.LENGTH_LONG).show();
+                String info = item.getTitle();
+                Intent intent = new Intent(MainActivity.this, info.class);
                 intent.putExtra("name", info);
                 intent.putExtra("genre", item.getYear());
                 startActivity(intent);
             }
         });
-        dialog=new ProgressDialog(this);
+        dialog = new ProgressDialog(this);
         dialog.setMessage("Loading...");
         dialog.show();
 
         //Creat volley request obj
-        JsonArrayRequest jsonArrayRequest=new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
                 hideDialog();
                 //parsing json
-                for(int i=0;i<response.length();i++){
-                    try{
-                        JSONObject obj=response.getJSONObject(i);
-                        Item item=new Item();
-                        item.setTitle(obj.getString("title"));
+                for (int i = 0; i < response.length(); i++) {
+                    try {
+                        JSONObject obj = response.getJSONObject(i);
+                        Item item = new Item();
+                        item.setTitle(obj.getString("name"));
                         item.setImage(obj.getString("image"));
-                        item.setRate(((Number) obj.get("rating")).doubleValue());
-                        item.setYear(obj.getString("releaseYear"));
-
-                        //genre is json array
-                        JSONArray genreArray=obj.getJSONArray("genre");
-                        ArrayList<String> genre=new ArrayList<String>();
-                        for(int j=0;j<genreArray.length();j++){
-                            genre.add((String) genreArray.get(j));
-                        }
-                        item.setGenre(genre);
-
+                        item.setYear(obj.getString("message"));
                         //add to array
                         array.add(item);
-                    }catch(JSONException ex){
+                    } catch (JSONException ex) {
                         ex.printStackTrace();
                     }
                 }
@@ -105,69 +131,72 @@ public class MainActivity extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
+                Toast.makeText(MainActivity.this,"there is an error :" + error.getMessage(), Toast.LENGTH_LONG).show();
+
 
             }
         });
         ooVooSdkSampleShowApp.getmInstance().addToRequesQueue(jsonArrayRequest);
 
-               /**
+        /**
          *Setup the DrawerLayout and NavigationView
          */
 
-        mDrawerLayout=(DrawerLayout)
+        mDrawerLayout = (DrawerLayout)
 
-        findViewById(R.id.drawerLayout);
+                findViewById(R.id.drawerLayout);
 
-        mNavigationView=(NavigationView)
+        mNavigationView = (NavigationView)
 
-        findViewById(R.id.shitstuff);
+                findViewById(R.id.shitstuff);
 
 
         /**
          * Setup click events on the Navigation View Items.
          */
 
-        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener()
-        {
-            @Override
-            public boolean onNavigationItemSelected (MenuItem menuItem){
-            mDrawerLayout.closeDrawers();
+        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+                                                              @Override
+                                                              public boolean onNavigationItemSelected(MenuItem menuItem) {
+                                                                  mDrawerLayout.closeDrawers();
 
 
-            if (menuItem.getItemId() == R.id.nav_item_inbox) {
-                ParseUser.logOut();
-                Intent i = new Intent(MainActivity.this, login.class);
-                startActivity(i);
-                finish();
+                                                                  if (menuItem.getItemId() == R.id.nav_item_inbox) {
+                                                                      ParseUser.logOut();
+                                                                      Intent i = new Intent(MainActivity.this, login.class);
+                                                                      startActivity(i);
+                                                                      finish();
 
 
-            }
+                                                                  }
 
-            if (menuItem.getItemId() == R.id.nav_item_sent)
+                                                                  if (menuItem.getItemId() == R.id.nav_item_sent)
 
-            {
-                Intent i = new Intent(MainActivity.this, SampleActivity.class);
-                startActivity(i);
+                                                                  {
+                                                                      Intent i = new Intent(MainActivity.this, SampleActivity.class);
+                                                                      startActivity(i);
 
-            }
+                                                                  }
 
-            if (menuItem.getItemId() == R.id.nav_item_inbox)
+                                                                  if (menuItem.getItemId() == R.id.nav_item_inbox)
 
-            {
+                                                                  {
 
-            }
+                                                                  }
 
-            return false;
-        }
+                                                                  return false;
+                                                              }
                                                           }
         );
     }
-    public void hideDialog(){
-        if(dialog !=null){
+
+    public void hideDialog() {
+        if (dialog != null) {
             dialog.dismiss();
-            dialog=null;
+            dialog = null;
         }
     }
+
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main_menu, menu);
@@ -196,7 +225,30 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+    public void animateFAB(){
 
+        if(isFabOpen){
 
+            fab.startAnimation(rotate_backward);
+            fab1.startAnimation(fab_close);
+            fab2.startAnimation(fab_close);
+            fab1.setClickable(false);
+            fab2.setClickable(false);
+            isFabOpen = false;
+            Log.d("Raj", "close");
+
+        } else {
+
+            fab.startAnimation(rotate_forward);
+            fab1.startAnimation(fab_open);
+            fab2.startAnimation(fab_open);
+            fab1.setClickable(true);
+            fab2.setClickable(true);
+            isFabOpen = true;
+            Log.d("Raj","open");
+
+        }
+
+    }
 
 }

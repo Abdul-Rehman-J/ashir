@@ -49,6 +49,7 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@+id/image_view"
         android:gravity="right"
+        android:layout_marginRight="10dp"
         android:text="@string/test"
         android:textSize="12dp" />
 </RelativeLayout>

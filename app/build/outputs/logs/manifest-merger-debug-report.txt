@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:2:1-136:12
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:2:1-137:12
 	xmlns:android
 		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -147,7 +147,7 @@ ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:41:5-4
 	android:glEsVersion
 		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:42:9-41
 application
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:45:5-134:19
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:45:5-135:19
 MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:24.0.0-alpha1] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
@@ -209,7 +209,7 @@ ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:66:17-
 	android:name
 		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:66:27-74
 activity#com.oovoo.sdk.sample.login
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:69:9-74:56
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:69:9-75:20
 	android:label
 		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:73:13-45
 	android:icon
@@ -221,107 +221,107 @@ ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:69:9-7
 	android:name
 		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:70:13-54
 activity#com.oovoo.sdk.sample.help
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:75:9-80:56
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:76:9-81:56
 	android:label
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:79:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:80:13-45
 	android:icon
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:79:13-49
 	android:theme
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:80:13-44
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:81:13-44
 	android:exported
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:77:13-36
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:78:13-36
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:76:13-53
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:77:13-53
 activity#com.oovoo.sdk.sample.MainActivity
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:81:15-85:57
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:82:15-86:57
 	android:label
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:85:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:86:13-45
 	android:icon
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:85:13-49
 	android:exported
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:83:13-36
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:84:13-36
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:82:13-61
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:83:13-61
 activity#com.oovoo.sdk.sample.chating_files.MainActivity_chat
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:86:9-90:57
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:87:9-91:57
 	android:label
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:90:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:91:13-45
 	android:icon
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:89:13-49
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:90:13-49
 	android:exported
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:88:13-36
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:89:13-36
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:87:13-80
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:88:13-80
 activity#com.oovoo.sdk.sample.signup
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:91:9-95:56
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:92:9-96:56
 	android:label
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:94:13-58
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:95:13-58
 	android:icon
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:94:13-49
 	android:theme
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:95:13-44
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:96:13-44
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:92:13-55
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:93:13-55
 activity#com.oovoo.sdk.sample.ui.SampleActivity
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:96:9-99:57
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:97:9-100:57
 	android:label
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:99:13-45
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:100:13-45
 	android:icon
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:98:13-49
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:99:13-49
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:97:13-66
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:98:13-66
 receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:101:9-110:20
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:102:9-111:20
 	android:exported
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:103:13-36
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:104:13-36
 	android:permission
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:104:13-73
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:105:13-73
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:102:13-66
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:103:13-66
 intent-filter#com.example.gcm+com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:105:13-109:29
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:106:13-110:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:106:17-81
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:107:17-81
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:106:25-78
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:107:25-78
 category#com.example.gcm
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:108:17-60
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:109:17-60
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:108:27-57
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:109:27-57
 service#com.oovoo.sdk.sample.services.MyGcmListenerService
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:112:9-118:19
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:113:9-119:19
 	android:exported
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:114:13-37
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:115:13-37
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:113:13-78
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:114:13-78
 intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:115:13-117:29
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:116:13-118:29
 service#com.oovoo.sdk.sample.services.MyInstanceIDListenerService
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:119:9-125:19
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:120:9-126:19
 	android:exported
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:121:13-37
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:122:13-37
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:120:13-85
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:121:13-85
 intent-filter#com.google.android.gms.iid.InstanceID
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:122:13-124:29
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:123:13-125:29
 action#com.google.android.gms.iid.InstanceID
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:123:17-80
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:124:17-80
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:123:25-77
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:124:25-77
 service#com.oovoo.sdk.sample.services.RegistrationIntentService
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:126:9-128:48
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:127:9-129:48
 	android:exported
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:128:13-37
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:129:13-37
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:127:13-83
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:128:13-83
 activity#com.oovoo.sdk.sample.info
-ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:130:9-133:56
+ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:131:9-134:56
 	android:label
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:132:13-56
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:133:13-56
 	android:theme
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:133:13-44
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:134:13-44
 	android:name
-		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:131:13-53
+		ADDED from C:\Users\aspire\Desktop\ashir\app\src\main\AndroidManifest.xml:132:13-53
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
 	android:name

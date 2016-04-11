@@ -2,11 +2,200 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\okio-1.3.0_e3e016d20b935246db1ba188a1e0334e3047c6f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1_e8a8e3da0aa72d49fddb0fd48ac0113d40cf7e91.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0-alpha1_9a55eb4a2a346056ea5d84c8540b2a8be3a975dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_ea7dbc3336d79ecae580f1e037d7e30bee773653.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bcb4a50f5e2c67b3e84441b1b2a239856776c9b8">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.10.0_81f7ed541a5f01fd59ac309ffedcc327e08d74fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\libs\Parse-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0134925989cd90163c416e94383b1b8ee88d02e2">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\Parse-1.3.0_5fd4e900c18383aeebbd17fa3f14e8abcb9a8b32.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_6dabc684c65349f5e2a9e8df8cc76c480e306f4f.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_bed5965d12a1535b779b8e84042fc3304ff5aff7.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_8541a8548d13575098f830af6e2aeb771c668f2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5305936738497fe4a5d89fc4f13015931c0fd402">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0-alpha1_d5ca1d0d91ea2dec9e3a495e5247dc0106b84ff1.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\libs\oovoosdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2ac73965a190571ddecb25b7a9a9320d1d12deca">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\oovoosdk_e34fa150c0be3c2469ee062ae145d4fb84bd9fe3.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.3.0\7896d229b6aa7884552ab9c23de54c7eb0de8203\okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.3.0_2308bf26fe73d09d851231058433e288eb50675b.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5305936738497fe4a5d89fc4f13015931c0fd402">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0-alpha1_cea0bcd9a5b1a1f3c8460ca2c527d0cfa4936035.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bcb4a50f5e2c67b3e84441b1b2a239856776c9b8">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.10.0_2e6388e16148cda00052825df3d0011c766c1230.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.github.nkzawa\engine.io-client\0.5.0\72f54ba32a0d735630ebc33a5c39e14a5dd45492\engine.io-client-0.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72f54ba32a0d735630ebc33a5c39e14a5dd45492">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\engine.io-client-0.5.0_01ed39e71dfb904240a0fe72c4b36d2727ec0c0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.5.0_72f674429bf7533a7cad640f0556026727ba2ec5.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1_ae2617077a52b8cd76f4187bca1cc703fb655e5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1_8f97ee98db06bc7835d1563adeb612bb18f48405.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.github.nkzawa\socket.io-client\0.5.0\7d40c590385ba95b34920eb89c986757a79968af\socket.io-client-0.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7d40c590385ba95b34920eb89c986757a79968af">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\socket.io-client-0.5.0_53df20fed69f53a08d273b5a299b89ae60b876ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\library-1.0.19_35b1079f48d05fe188ea100fe60e56c37757aed6.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.intellij\annotations\12.0\bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539\annotations-12.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\annotations-12.0_059d83e29075d1e0d15720edbe52164676281312.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\libs\mongo-2.10.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09e2c2835b0126a48183ed42129e53b6eb6e259b">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\mongo-2.10.1_fab037d0728c7ec4a35c5934d2fe7eec6ed58631.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1f1c7067e22acf05bddbca9f94422050cd848a86">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0-alpha1_5c202bfadc0f1283eb6bf80a9e2910e16a7e64ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.1.0\6025b7df8a6a4193138723ef120e7228b6a97024\okhttp-urlconnection-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6025b7df8a6a4193138723ef120e7228b6a97024">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.1.0_7acf21be5f5b75e389eccfe7a9ab280d44f5ade8.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_1bfe9b298fbcdf047a1cd30e904bc7408307e815.jar" />
+    </item>
+    <item
         jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.3.0\2e7bc7033dc2c8423e661224171b3133fb155b28\okhttp-2.3.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
         <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\okhttp-2.3.0_e9f0736452039fb5acf6845b9fed129c7e5104bd.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0_3f2a79ad7db7d7e75ebfdff0d03273fe2e012327.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0_c265bc4b4bdf4e55f9a9533bb4862574227ea43d.jar" />
     </item>
     <item
         jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\it.sephiroth.android.library.picasso\picasso\2.5.2.4b\jars\classes.jar"
@@ -30,137 +219,11 @@
         <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\it.sephiroth.android.library.picasso-picasso-2.5.2.4b_c3a36936c974f9e772f9f788226ba1f286d584d4.jar" />
     </item>
     <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\libs\mongo-2.10.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="09e2c2835b0126a48183ed42129e53b6eb6e259b">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\mongo-2.10.1_5e9ddf41082b9ab1fe84bc48a39b6c356c2fb112.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.1.0\6025b7df8a6a4193138723ef120e7228b6a97024\okhttp-urlconnection-2.1.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6025b7df8a6a4193138723ef120e7228b6a97024">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.1.0_7acf21be5f5b75e389eccfe7a9ab280d44f5ade8.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.5.0_72f674429bf7533a7cad640f0556026727ba2ec5.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5305936738497fe4a5d89fc4f13015931c0fd402">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0-alpha1_d5ca1d0d91ea2dec9e3a495e5247dc0106b84ff1.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_1bfe9b298fbcdf047a1cd30e904bc7408307e815.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_8541a8548d13575098f830af6e2aeb771c668f2b.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5305936738497fe4a5d89fc4f13015931c0fd402">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0-alpha1_cea0bcd9a5b1a1f3c8460ca2c527d0cfa4936035.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\libs\oovoosdk.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2ac73965a190571ddecb25b7a9a9320d1d12deca">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\oovoosdk_07e9270d63087de7c62968cd89c97ae5c1c0a87d.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1_e8a8e3da0aa72d49fddb0fd48ac0113d40cf7e91.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1_ae2617077a52b8cd76f4187bca1cc703fb655e5c.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\okio-1.3.0_e3e016d20b935246db1ba188a1e0334e3047c6f5.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0_c265bc4b4bdf4e55f9a9533bb4862574227ea43d.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="bc535105332645408ef5f1380215cc954b842178">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0_3f2a79ad7db7d7e75ebfdff0d03273fe2e012327.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_ea7dbc3336d79ecae580f1e037d7e30bee773653.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0-alpha1_9a55eb4a2a346056ea5d84c8540b2a8be3a975dc.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1f1c7067e22acf05bddbca9f94422050cd848a86">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0-alpha1_5c202bfadc0f1283eb6bf80a9e2910e16a7e64ca.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.3.0\7896d229b6aa7884552ab9c23de54c7eb0de8203\okhttp-ws-2.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.3.0_2308bf26fe73d09d851231058433e288eb50675b.jar" />
-    </item>
-    <item
         jar="C:\Users\aspire\Desktop\ashir\app\libs\Parse-1.3.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="0134925989cd90163c416e94383b1b8ee88d02e2">
         <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\Parse-1.3.0_d8967fa1bca6624e41bebd9ca90a93872a15804c.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b8062546971a3d196343232a19a3c0016272ba47">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1_8f97ee98db06bc7835d1563adeb612bb18f48405.jar" />
     </item>
     <item
         jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
@@ -170,11 +233,18 @@
         <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0-alpha1_9ba7c3db95851eced7d8befe9f8e4f949e001a07.jar" />
     </item>
     <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\libs\oovoosdk.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_6dabc684c65349f5e2a9e8df8cc76c480e306f4f.jar" />
+        sha1="2ac73965a190571ddecb25b7a9a9320d1d12deca">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\oovoosdk_07e9270d63087de7c62968cd89c97ae5c1c0a87d.jar" />
+    </item>
+    <item
+        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\libs\mongo-2.10.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09e2c2835b0126a48183ed42129e53b6eb6e259b">
+        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\mongo-2.10.1_5e9ddf41082b9ab1fe84bc48a39b6c356c2fb112.jar" />
     </item>
     <item
         jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\jars\classes.jar"
@@ -184,81 +254,11 @@
         <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0-alpha1_c8060e800f1f08270f20b724294468b900e95ce0.jar" />
     </item>
     <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.github.nkzawa\socket.io-client\0.5.0\7d40c590385ba95b34920eb89c986757a79968af\socket.io-client-0.5.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="7d40c590385ba95b34920eb89c986757a79968af">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\socket.io-client-0.5.0_53df20fed69f53a08d273b5a299b89ae60b876ca.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.github.nkzawa\engine.io-client\0.5.0\72f54ba32a0d735630ebc33a5c39e14a5dd45492\engine.io-client-0.5.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="72f54ba32a0d735630ebc33a5c39e14a5dd45492">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\engine.io-client-0.5.0_01ed39e71dfb904240a0fe72c4b36d2727ec0c0c.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\library-1.0.19_35b1079f48d05fe188ea100fe60e56c37757aed6.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_bed5965d12a1535b779b8e84042fc3304ff5aff7.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="bcb4a50f5e2c67b3e84441b1b2a239856776c9b8">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.10.0_2e6388e16148cda00052825df3d0011c766c1230.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\.gradle\caches\modules-2\files-2.1\com.intellij\annotations\12.0\bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539\annotations-12.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\annotations-12.0_059d83e29075d1e0d15720edbe52164676281312.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\libs\oovoosdk.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2ac73965a190571ddecb25b7a9a9320d1d12deca">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\oovoosdk_e34fa150c0be3c2469ee062ae145d4fb84bd9fe3.jar" />
-    </item>
-    <item
         jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8d736fefa22d896e84a268354b3ed48a42663150">
         <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.5.0_4e368a668076c1a82f7498bd40cb7123899fccf9.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="bcb4a50f5e2c67b3e84441b1b2a239856776c9b8">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.10.0_81f7ed541a5f01fd59ac309ffedcc327e08d74fc.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Desktop\ashir\app\libs\mongo-2.10.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="09e2c2835b0126a48183ed42129e53b6eb6e259b">
-        <dex dex="C:\Users\aspire\Desktop\ashir\app\build\intermediates\pre-dexed\debug\mongo-2.10.1_fab037d0728c7ec4a35c5934d2fe7eec6ed58631.jar" />
-    </item>
-    <item
-        jar="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\libs\Parse-1.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0134925989cd90163c416e94383b1b8ee88d02e2">
-        <dex dex="C:\Users\aspire\Downloads\Compressed\conferce-new-ashir\app\build\intermediates\pre-dexed\debug\Parse-1.3.0_5fd4e900c18383aeebbd17fa3f14e8abcb9a8b32.jar" />
     </item>
 
 </items>
