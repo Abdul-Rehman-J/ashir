@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oovoo.sdk.sample.chating_files.MainActivity_chat"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:padding="15dp"
+            android:hint="Enter Recipent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="40sp"
+            android:id="@+id/editText3" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/message_input"
+            android:layout_weight="1"
+            android:hint="Message"
+            android:imeActionId="@+id/send"
+            android:imeActionLabel="Send"
+            android:imeOptions="actionSend"
+            android:textSize="40sp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/send_button"
+            android:src="@drawable/sent"
+            android:contentDescription="Send"/>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

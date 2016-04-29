@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="heheheh"
+        android:textStyle="normal|italic"
+        android:textSize="20dp"
+        android:textColor="#6B7555"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/test1"
+        android:text="heheheh"
+        android:textColor="#6B7555"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_alignLeft="@+id/test"
+        android:layout_alignStart="@+id/test" />
+
+    <ImageButton
+        android:src="@android:drawable/sym_call_outgoing"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton"
+android:layout_marginRight="5dp"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/test"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/me"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton2"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

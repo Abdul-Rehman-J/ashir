@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:id="@+id/toolbar5"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Conference" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal" >
+        <Button
+			android:id="@+id/add_to_call_button"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/add_title"
+            android:textSize="25sp"
+			android:layout_weight="1"
+			android:clickable="true">
+		</Button>  
+		
+		<Button
+			android:id="@+id/start_call_button"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/start_call_title"
+            android:textSize="25sp"
+            android:layout_weight="1"
+			android:clickable="true">
+		</Button>  
+	</LinearLayout>
+
+    <TextView
+        android:id="@+id/call_receiver_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/call_receivers"
+        android:textSize="25sp"
+        />
+
+    <ListView
+        android:id="@+id/call_receivers_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     
+        android:layout_marginTop="15dp"
+        android:textSize="25sp">
+        
+    </ListView>
+    
+</LinearLayout>

@@ -1,0 +1,5 @@
+CHANGED,C:\Users\aspire\Desktop\ashir\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\oovoo\sdk\sample\MainActivity$5$override.class
+CHANGED,C:\Users\aspire\Desktop\ashir\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\oovoo\sdk\sample\MainActivity$6$override.class
+CHANGED,C:\Users\aspire\Desktop\ashir\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\oovoo\sdk\sample\MainActivity$7$override.class
+CHANGED,C:\Users\aspire\Desktop\ashir\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\oovoo\sdk\sample\MainActivity$override.class
+CHANGED,C:\Users\aspire\Desktop\ashir\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\push_notification_fragment.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\push_notification_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\push_notification_fragment.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\push_notification_fragment.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_login.xml",
@@ -52,20 +52,20 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\call_controll.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_grid_item.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\video_grid_item.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_grid_item.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\video_grid_item.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_recyclerview.xml",
@@ -76,20 +76,20 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\information_fragment_layout.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\main_activity.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_c.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\fragment_c.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_c.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\fragment_c.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -104,12 +104,12 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\custom_layout.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\com_facebook_activity_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_message.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\layout_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\activity_help.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\activity_help.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
@@ -180,24 +180,24 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\list_view_mongo.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\messenger_button_send_blue_round.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info.xml",
@@ -216,20 +216,20 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\fragment_option.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\tab_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\tab_layout.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_layout.xml",
@@ -240,12 +240,12 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\activity_main_chat_2.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chatlist.xml",
@@ -260,24 +260,24 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\content_info.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_message_right.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\list_item_message_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -308,12 +308,12 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\host_activity.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -332,24 +332,24 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\avchat_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\outgoing_call_dialog.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\outgoing_call_dialog.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\outgoing_call_dialog.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\outgoing_call_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -376,36 +376,36 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\list_item_message_left.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_fragment_layout.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\login_fragment_layout.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_view.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\list_card_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_view.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\list_view.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_help.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\content_help.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_view.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_card_view.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\list_card_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\call_negotiation_fragment.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\call_negotiation_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -424,24 +424,24 @@
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\activity_main_mongo.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_recyclerview_cards.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\row_recyclerview_cards.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_recyclerview_cards.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\row_recyclerview_cards.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\incoming_call_dialog.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\src\\main\\res\\layout\\incoming_call_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\aspire\\Desktop\\ashir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recyclerview_item.xml",

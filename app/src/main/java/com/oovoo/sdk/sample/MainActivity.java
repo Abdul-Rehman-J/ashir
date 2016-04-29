@@ -117,17 +117,31 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         JSONObject obj = response.getJSONObject(i);
                         Item item = new Item();
-                        item.setTitle(obj.getString("name"));
+                        item.setTitle(obj.getString("title"));
                         item.setImage(obj.getString("image"));
-                        item.setYear(obj.getString("message"));
+                        item.setRate(((Number) obj.get("rating")).doubleValue());
+
+
+                        //genre is json array
+                        JSONArray genreArray = obj.getJSONArray("genre");
+                        ArrayList<String> genre = new ArrayList<String>();
+                        for (int j = 0; j < genreArray.length(); j++) {
+                            genre.add((String) genreArray.get(j));
+                        }
+                        item.setGenre(genre);
+
                         //add to array
                         array.add(item);
                     } catch (JSONException ex) {
                         ex.printStackTrace();
+
+
                     }
                 }
+
                 adapter.notifyDataSetChanged();
             }
+
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
